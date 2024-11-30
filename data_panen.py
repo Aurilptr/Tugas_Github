@@ -42,7 +42,7 @@ data_panen = {
 }
 
 # 1. Menampilkan seluruh data dictionary
-print("Duta Panen")
+print("Data Panen Master")  # Diubah di branch master
 for key, value in data_panen.items():
     print(key, value)
 
@@ -76,5 +76,3 @@ for key, value in data_panen.items():
         print(f"{nama_lokasi} memerlukan perhatian khusus.")
     else:
         print(f"{nama_lokasi} dalam kondisi baik.")
-
-print ("Auril Putri Amanda")
