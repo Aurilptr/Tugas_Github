@@ -42,7 +42,7 @@ data_panen = {
 }
 
 # 1. Menampilkan seluruh data dictionary
-print("Data Panen")
+print("Duta Panen")
 for key, value in data_panen.items():
     print(key, value)
 
