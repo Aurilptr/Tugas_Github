@@ -43,6 +43,7 @@ data_panen = {
 
 # 1. Menampilkan seluruh data dictionary
 print("Data Panen dari Master")
+print("Data Panen dari branch1")
 for key, value in data_panen.items():
     print(key, value)
 
