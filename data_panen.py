@@ -64,3 +64,15 @@ for key, value in jumlah_padi.items():
 print("\njumlah Kedelai : ")
 for key, value in jumlah_kedelai.items():
     print(key, value)
+
+# 6. Buat percabangan
+print("\nKondisi Lokasi:")
+for key, value in data_panen.items():
+    nama_lokasi = value['nama_lokasi']
+    padi = value['hasil_panen']['padi']
+    jagung = value['hasil_panen']['jagung']
+    
+    if padi > 1300 or jagung > 800:
+        print(f"{nama_lokasi} memerlukan perhatian khusus.")
+    else:
+        print(f"{nama_lokasi} dalam kondisi baik.")
